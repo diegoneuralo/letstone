@@ -1,0 +1,15 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+	<h:form id="formMenuPrincipal" prependId="false">
+		<p:menubar autoDisplay="false" styleClass="borderRadius-none">
+			<p:submenu label="Cadastros">
+				<p:menuitem value="Músicas" url="musicas.xhtml" icon="ui-icon-volume-on" />
+			</p:submenu>
+			<p:menuitem value="Sair" url="#" icon="ui-icon-close" />
+		</p:menubar>
+	</h:form>
+</ui:composition>

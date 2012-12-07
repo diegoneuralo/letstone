@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title><ui:insert name="titulo">Let's Tone</ui:insert></title>
+	<link type="text/css" rel="stylesheet"
+		href="#{request.contextPath}/resources/css/style.css" />
+	<ui:insert name="jquery">
+		<!-- inserir o codigo aqui -->
+	</ui:insert>
+</h:head>
+<h:body>
+	<ui:insert name="header"></ui:insert>
+	<ui:insert name="content">Add your content here or delete to use the default</ui:insert>
+	<ui:insert name="footer">Add your footer here or delete to use the default</ui:insert>
+</h:body>
+</html>

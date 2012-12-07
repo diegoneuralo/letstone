@@ -1,0 +1,22 @@
+html {
+	border-top: 10px solid #FF9900;
+	border-bottom: 10px solid #FF9900;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.borderRadius-none {
+	border-radius: 0 !important;
+}
+
+.ui-widget,.ui-widget .ui-widget {
+	font-size: 12px !important;
+}
+
+.ui-menubar {
+	display: block;
+	z-index: 12;
+}
